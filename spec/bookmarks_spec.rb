@@ -3,22 +3,20 @@ require 'bookmarks'
 describe Bookmark do
   describe '.all' do
     it 'returns all bookmarks' do
-      Bookmark.new_bookmark(url: "http://www.destroyallsoftware.com")
-      Bookmark.new_bookmark(url: "http://www.google.com")
-      Bookmark.new_bookmark(url: "http://www.makersacademy.com")
+      bookmark = Bookmark.new_bookmark(url: "http://www.destroyallsoftware.com", title: "Destroy All Software")
+      bookmark2 = Bookmark.new_bookmark(url: "http://www.google.com", title: "Google")
+      bookmark3 = Bookmark.new_bookmark(url: "http://www.makersacademy.com", title: "Makers")
 
-      bookmarks = Bookmark.all
-
-      expect(bookmarks).to include("http://www.destroyallsoftware.com")
-      expect(bookmarks).to include("http://www.google.com")
-      expect(bookmarks).to include("http://www.makersacademy.com")
+      expect(bookmark.title).to include("Destroy All Software")
+      expect(bookmark2.title).to include("Google")
+      expect(bookmark3.title).to include("Makers")
     end
   end
 
   describe '#new_bookmark' do
     it 'adds a new bookmark' do
-      Bookmark.new_bookmark(url: "http://bbc.co.uk/sport")
-      expect(Bookmark.all).to include("http://bbc.co.uk/sport")
+      bookmark = Bookmark.new_bookmark(url: "http://bbc.co.uk/sport", title: "BBC Sport")
+      expect(bookmark.title).to include("BBC Sport")
     end
   end
 end
