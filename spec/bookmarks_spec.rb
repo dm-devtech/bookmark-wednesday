@@ -12,6 +12,7 @@ describe Bookmark do
       expect(bookmarks.first.title).to include("Destroy All Software")
       # expect(bookmark2.title).to include("Google")
       # expect(bookmark3.title).to include("Makers")
+      # can call id and url 
     end
   end
 
@@ -20,6 +21,7 @@ describe Bookmark do
       bookmark = Bookmark.new_bookmark(url: "http://bbc.co.uk/sport", title: "BBC Sport")
       bookmarks = Bookmark.all
       expect(bookmarks.first.title).to include("BBC Sport")
+      # .new_bookmark return what it's inputting 
     end
   end
 end
