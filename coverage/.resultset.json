@@ -32,6 +32,20 @@
           null
         ]
       },
+      "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark-wednesday/spec/features/delete_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark-wednesday/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           1,
@@ -76,6 +90,6 @@
         ]
       }
     },
-    "timestamp": 1603467741
+    "timestamp": 1603468897
   }
 }
