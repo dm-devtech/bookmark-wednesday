@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/TimGill/Github/Makers_main/04_Week/bookmark-wednesday/spec/bookmarks_spec.rb": {
+      "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark-wednesday/spec/bookmarks_spec.rb": {
         "lines": [
           1,
           null,
@@ -13,11 +13,14 @@
           1,
           null,
           1,
-          0,
-          0,
+          null,
+          1,
           null,
           null,
           null,
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -27,7 +30,7 @@
           null
         ]
       },
-      "/Users/TimGill/Github/Makers_main/04_Week/bookmark-wednesday/spec/features/view_bookmarks_spec.rb": {
+      "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark-wednesday/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           1,
           null,
@@ -51,19 +54,12 @@
           1,
           1,
           1,
-<<<<<<< HEAD
           1,
-=======
->>>>>>> 2331e8c3c210e61d9e3c3a839ee075f1f8341b3b
           null,
           null
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1603465551
-=======
-    "timestamp": 1603386847
->>>>>>> 2331e8c3c210e61d9e3c3a839ee075f1f8341b3b
+    "timestamp": 1603466982
   }
 }
